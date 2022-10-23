@@ -1,6 +1,6 @@
 <?php
 
-namespace transport;
+namespace transport\strategy;
 
 class OnFoot implements Itransport
 {

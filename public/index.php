@@ -2,10 +2,10 @@
 
 require "vendor/autoload.php";
 
-use transport\Bus;          
-use transport\Car;
-use transport\OnFoot;
-use transport\StrategyTransport;
+use transport\strategy\Bus;
+use transport\strategy\Car;
+use transport\strategy\OnFoot;
+use transport\strategy\StrategyTransport;
 
 $walk = new StrategyTransport(new Bus());
 

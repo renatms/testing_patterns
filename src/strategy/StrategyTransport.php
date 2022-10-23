@@ -1,10 +1,10 @@
 <?php
 
-namespace transport;
+namespace transport\strategy;
 
 class StrategyTransport
 {
-    public $strategy;
+    public Itransport $strategy;
 
     public function __construct(Itransport $strategy)
     {
